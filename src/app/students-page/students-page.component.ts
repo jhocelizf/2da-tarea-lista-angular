@@ -4,7 +4,7 @@ import { Student } from '../models-students/models-students.component';
 @Component({
   selector: 'app-students-page',
   templateUrl: './students-page.component.html',
-  styleUrl: './students-page.component.scss'
+  styleUrl: './students-page.component.scss',
 })
 export class StudentsPageComponent {
 
@@ -31,5 +31,4 @@ export class StudentsPageComponent {
       true
     ),
   ];
-
 }

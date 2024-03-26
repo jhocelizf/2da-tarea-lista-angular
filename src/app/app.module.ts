@@ -6,12 +6,15 @@ import { AppComponent } from './app.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
 import { StudentsPageComponent } from './students-page/students-page.component';
 import { ToolbarComponent } from './toolbar/toolbar.component';
+import { UppercaseApprovedPipe } from './pipes/uppercaseApproved.pipe'; 
+
 
 @NgModule({
   declarations: [
     AppComponent,
     SidenavComponent,
     StudentsPageComponent,
+    UppercaseApprovedPipe,
     ToolbarComponent,
   ],
   imports: [
@@ -22,3 +25,5 @@ import { ToolbarComponent } from './toolbar/toolbar.component';
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
+
